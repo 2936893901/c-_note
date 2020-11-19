@@ -1,8 +1,8 @@
 # ​:notebook_with_decorative_cover:​c++ 笔记
 
-<details><summary>​:bookmark_tabs:​笔记目录</summary>
-<!--         1. [decltype](https://github.com/2936893901/cpp_note/blob/main/note/decltype.md "")
-        2. [explicit](https://github.com/2936893901/cpp_note/blob/main/note/explicit.md "") -->
+<b><details><summary>​:bookmark_tabs:​笔记目录</summary></b>
+        1. [decltype](https://github.com/2936893901/cpp_note/blob/main/note/decltype.md "")
+        2. [explicit](https://github.com/2936893901/cpp_note/blob/main/note/explicit.md "")
   </details>
 
 [​:thumbsup:​c++推荐写法](#tj)
