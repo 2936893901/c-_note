@@ -1,7 +1,8 @@
 # ​:notebook_with_decorative_cover:​c++ 笔记
 
 <b><details><summary>​:flags:​</summary></b>
-1. ​:bookmark_tabs:​[笔记目录](https://github.com/2936893901/cpp_note/tree/main/note)
+1. <details><summary>​:bookmark_tabs:​[笔记目录](https://github.com/2936893901/cpp_note/tree/main/note)</summary>
+</details>
 2. ​:thumbsup:​[c++推荐写法](#tj)
 </details>
 
