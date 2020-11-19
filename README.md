@@ -1,8 +1,9 @@
 # ​:notebook_with_decorative_cover:​c++ 笔记
 
-1. <details><summary>​:bookmark_tabs:​笔记目录</summary>
+- <details><summary>​:bookmark_tabs:​笔记目录</summary>
+  1. []()
 </details>
-2. [​:thumbsup:​c++推荐写法](#tj)
+- [​:thumbsup:​c++推荐写法](#tj)
 
 <a id="tj"><a>
 ## c++代码推荐写法汇总
