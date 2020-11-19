@@ -1,5 +1,9 @@
 # ​:notebook_with_decorative_cover:​c++ 笔记
+[​:bookmark_tabs:​笔记目录](#)
+[c++推荐写法](#tj)
 
+
+<a id="tj"><a>
 ## c++代码推荐写法汇总
 
 ### 尽量少使用 using 指示 污染命名空间
