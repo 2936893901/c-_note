@@ -1,4 +1,4 @@
-# c++ 笔记
+# c++ ​:notebook_with_decorative_cover:​笔记
 
 ## c++代码推荐写法汇总
 
