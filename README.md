@@ -1,11 +1,11 @@
 # ​:notebook_with_decorative_cover:​c++ 笔记
 
-<b><details><summary>## ​:bookmark_tabs:​笔记目录</summary></b>
+<b><details><summary>​:bookmark_tabs:​笔记目录</summary></b>
         [decltype](https://github.com/2936893901/cpp_note/blob/main/note/decltype.md "")&nbsp;
         [explicit](https://github.com/2936893901/cpp_note/blob/main/note/explicit.md "")
   </details>
 
-## [​:thumbsup:​c++推荐写法](#tj)
+[​:thumbsup:​c++推荐写法](#tj)
 
 <a id="tj"><a>
 ## c++代码推荐写法汇总
