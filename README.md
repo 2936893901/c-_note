@@ -1,6 +1,6 @@
 # ​:notebook_with_decorative_cover:​c++ 笔记
-[​:bookmark_tabs:​笔记目录](#)
-[c++推荐写法](#tj)
+1. [​:bookmark_tabs:​笔记目录]()
+2. [c++推荐写法](#tj)
 
 
 <a id="tj"><a>
