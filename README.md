@@ -1,5 +1,5 @@
 # ​:notebook_with_decorative_cover:​c++ 笔记
-1. [​:bookmark_tabs:​笔记目录]()
+1. [​:bookmark_tabs:​笔记目录](https://github.com/2936893901/cpp_note/tree/main/note)
 2. [c++推荐写法](#tj)
 
 
