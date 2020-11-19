@@ -1,4 +1,4 @@
-# ​:notebook_with_decorative_cover:​c++ 笔记
+# ​:notebook_with_decorative_cover:​c++ 笔记(持续更新中​:newspaper:​)
 
 <b><details><summary>​:bookmark_tabs:​笔记目录</summary></b>
         [decltype](https://github.com/2936893901/cpp_note/blob/main/note/decltype.md "")&nbsp;
