@@ -2,7 +2,8 @@
 
 - <details><summary>​:bookmark_tabs:​笔记目录</summary>
   1. []()
-</details>
+  </details>
+
 - [​:thumbsup:​c++推荐写法](#tj)
 
 <a id="tj"><a>
