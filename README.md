@@ -49,8 +49,7 @@ using namespace std;
 ```
 - 应该多使用 using 声明
 ```c++
-int x;
-std::cout << x;
+std::cout << “Hello World”;
 ```
 
 ### 构造方法
