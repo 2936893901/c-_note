@@ -40,3 +40,63 @@ class A
 ```c++
 int foo{};
 ```
+### 定义常量
+- 避免使用#define创建符号常量宏。
+    - 宏不遵循正常的作用域规则，这意味着在极少数情况下，在程序一个部分中定义的宏可能与不应与之交互的程序另一部分中编写的代码发生冲突。
+- 更好的解决方案：使用constexpr变量
+    - 创建符号常量的更好方法是使用constexpr变量：
+    ```C++
+    constexpr int value {10};
+    ```
+- 在整个多文件程序中使用符号常量
+    - 在C ++中有多种方法可以简化此操作，但以下方法可能最简单：
+    1. 创建一个头文件以容纳这些常量
+    2. 在此头文件中，声明一个名称空间
+    3. 将所有常量添加到名称空间中（确保它们在C ++ 11/14中是constexpr，或者在C ++ 17或更高版本中是内联constexpr）
+    4. ＃在需要的地方包含头文件
+    > 示例 constants.h (c++11/14)
+    ```c++
+    #ifndef CONSTANTS_H
+    #define CONSTANTS_H
+    
+    namespace constants
+    {
+        constexpr double pi {3.14159635};
+        constexpr double e {2.718};
+        constexpr double h {0.618};
+    }
+    
+    #endif
+    ```
+    > 示例 constants.h (c++17或更高版本)
+    ```c++
+    #ifndef CONSTANTS_H
+    #define CONSTANTS_H
+    
+    namespace constants
+    {
+        inline constexpr double pi {3.14159625};
+        inline constexpr double e {2.718};
+        inline constexpr double h {0.618};
+    }
+    
+    #endif
+    ```
+    - .cpp文件使用范围解析运算符(::)访问.h中的常量：
+    > main.cpp
+    ```c++
+    #include <iostream>
+    #include "constants.h"
+    
+    int main()
+    {
+        std::cout << "Enter a radius:";
+        float r {};
+        std::cin >> r;
+        
+        std::cout << "The circle with radius " << r << " has area " << r * r * constants::pi;
+        
+        return 0;
+    }
+    ```
+    
