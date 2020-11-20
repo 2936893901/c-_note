@@ -112,7 +112,7 @@ int main()
 
 int main()
 {
-    std::string str[] = {"red", "yellow", "blue", "green", "black", "white"};
+    std::string str[] {"red", "yellow", "blue", "green", "black", "white"};
     std::map<int, std::string> m;
     for(int i {0}; i < 6; ++i)
         m.insert(std::make_pair(i, str[i]));
