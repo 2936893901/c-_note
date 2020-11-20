@@ -1,3 +1,4 @@
+<a id="top"></a>
 # ​:notebook_with_decorative_cover:​c++ 笔记
 持续更新中……​:newspaper:​
 
@@ -125,4 +126,4 @@ int foo{};
         return 0;
     }
     ```
-    
+  [​:top:​](#top)  
