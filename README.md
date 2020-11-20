@@ -2,7 +2,7 @@
 # ​:notebook_with_decorative_cover:​c++ 笔记
 持续更新中……​:newspaper:​
 
-<b><details><summary>​:bookmark_tabs:​笔记目录</summary></b>
+<b><details><summary>​:bookmark_tabs:​笔记目录(乱序)</summary></b>
         [decltype](https://github.com/2936893901/cpp_note/blob/main/note/decltype.md)&nbsp;
         [explicit](https://github.com/2936893901/cpp_note/blob/main/note/explicit.md)&nbsp;
         [STL容器](https://github.com/2936893901/cpp_note/blob/main/note/STL%E5%AE%B9%E5%99%A8.md)&nbsp;
