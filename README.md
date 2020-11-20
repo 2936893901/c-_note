@@ -30,12 +30,6 @@
         [重载和模板](https://github.com/2936893901/cpp_note/blob/main/note/%E9%87%8D%E8%BD%BD%E5%92%8C%E6%A8%A1%E6%9D%BF.md)&nbsp;
         [预处理器](https://github.com/2936893901/cpp_note/blob/main/note/%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.md)&nbsp;
         []()&nbsp;
-        |      |      |      |      |      |
-        | ---- | ---- | ---- | ---- | ---- |
-        |      |      |      |      |      |
-        |      |      |      |      |      |
-        |      |      |      |      |      |
-        |      |      |      |      |      |
   </details>
 
 [​:thumbsup:​c++推荐写法](#tj)
