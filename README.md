@@ -126,4 +126,4 @@ int foo{};
         return 0;
     }
     ```
-  [​:top:​](#top)  
+<p align="right">[​:top:​](#top)</p>
