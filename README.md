@@ -32,6 +32,7 @@
             [预处理器](https://github.com/2936893901/cpp_note/blob/main/note/%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.md)&nbsp;
             [STL迭代器](https://github.com/2936893901/cpp_note/blob/main/note/STL%E8%BF%AD%E4%BB%A3%E5%99%A8.md)&nbsp;
             [lambda](https://github.com/2936893901/cpp_note/blob/main/note/Lambda.md)&nbsp;
+            [设计模式](https://github.com/2936893901/cpp_note/blob/main/note/Design%20Patterns.md)&nbsp;
   </details>
 
 [​:thumbsup:​c++推荐写法](#tj)
