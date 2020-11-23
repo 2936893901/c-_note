@@ -4,15 +4,15 @@
 
 <b><details><summary>​:bookmark_tabs:​笔记目录(乱序)</summary></b>
             [decltype](./note/decltype.md)&nbsp;
-            [explicit](https://github.com/2936893901/cpp_note/blob/main/note/explicit.md)&nbsp;
-            [STL容器](https://github.com/2936893901/cpp_note/blob/main/note/STL%E5%AE%B9%E5%99%A8.md)&nbsp;
-            [extern](https://github.com/2936893901/cpp_note/blob/main/note/extern.md)&nbsp;
-            [位域](https://github.com/2936893901/cpp_note/blob/main/note/%E4%BD%8D%E5%9F%9F.md)&nbsp;
-            [信号处理](https://github.com/2936893901/cpp_note/blob/main/note/%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86.md)&nbsp;
-            [其他数据类型](https://github.com/2936893901/cpp_note/blob/main/note/%E5%85%B6%E4%BB%96%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)&nbsp;
-            [函数](https://github.com/2936893901/cpp_note/blob/main/note/%E5%87%BD%E6%95%B0.md)&nbsp;
-            [动态记忆](https://github.com/2936893901/cpp_note/blob/main/note/%E5%8A%A8%E6%80%81%E8%AE%B0%E5%BF%86.md)&nbsp;
-            [双冒号](https://github.com/2936893901/cpp_note/blob/main/note/%E5%8F%8C%E5%86%92%E5%8F%B7.md)&nbsp;
+            [explicit](./note/explicit.md)&nbsp;
+            [STL容器](./note/STL%E5%AE%B9%E5%99%A8.md)&nbsp;
+            [extern](./note/extern.md)&nbsp;
+            [位域](./note/%E4%BD%8D%E5%9F%9F.md)&nbsp;
+            [信号处理](./note/%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86.md)&nbsp;
+            [其他数据类型](./note/%E5%85%B6%E4%BB%96%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)&nbsp;
+            [函数](./note/%E5%87%BD%E6%95%B0.md)&nbsp;
+            [动态记忆](./note/%E5%8A%A8%E6%80%81%E8%AE%B0%E5%BF%86.md)&nbsp;
+            [双冒号](./note/%E5%8F%8C%E5%86%92%E5%8F%B7.md)&nbsp;
             [名称可见性](https://github.com/2936893901/cpp_note/blob/main/note/%E5%90%8D%E7%A7%B0%E5%8F%AF%E8%A7%81%E6%80%A7.md)&nbsp;
             [基本输入输出](https://github.com/2936893901/cpp_note/blob/main/note/%E5%9F%BA%E6%9C%AC%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.md)&nbsp;
             [多线程](https://github.com/2936893901/cpp_note/blob/main/note/%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)&nbsp;
