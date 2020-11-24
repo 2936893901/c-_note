@@ -16,8 +16,9 @@
 ### [:golf:](#ee)
 > 练习网站:point_right:[点击这](https://light-city.club/sc/practical_exercises/key_exercises/key/ "重点狂练")
 ## :bookmark_tabs:目录3(实战30)
-> 练习网站:point_right:[点击这](https://light-city.club/sc/learn_class/modern_C%2B%2B_30/jiketime_class/ "实战30讲")
 ### [:golf:](#sz)
+> 练习网站:point_right:[点击这](https://light-city.club/sc/learn_class/modern_C%2B%2B_30/jiketime_class/ "实战30讲")
+----
 ## 第一部分
  <a id="one"></a>
 ### 第一天、 基础C++语法
