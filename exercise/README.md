@@ -1,5 +1,5 @@
 [<p align="right">:back:</p>](../README.md)
-# :pen:c++练习
+# :pencil:c++练习
 ## :bookmark_tabs:目录1（十日狂练系列）
  - ### [第一天](#one)
  - ### [第二天](#two)
