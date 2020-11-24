@@ -1,6 +1,6 @@
-<a id="top"></a>[<p align="right">:leftwards_arrow_with_hook:</p>](../README.md)
+<a id="top"></a>
 # :notebook_with_decorative_cover:c++ 笔记
-持续更新中……:newspaper:
+<p align="left">持续更新中……:newspaper:</p>[<p align="right">:leftwards_arrow_with_hook:</p>](../README.md)
 <b><details><summary>:bookmark_tabs:笔记目录(乱序)</summary></b>
             [decltype](decltype.md)&nbsp;
             [explicit](explicit.md)&nbsp;
@@ -34,7 +34,7 @@
             [设计模式](Design%20Patterns.md)&nbsp;
   </details>
 
-[​:thumbsup:​c++推荐写法](#tj)
+[:thumbsup:c++推荐写法](#tj)
 
 <a id="tj"><a>
 ## c++代码推荐写法汇总
