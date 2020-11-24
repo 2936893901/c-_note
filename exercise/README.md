@@ -116,3 +116,4 @@
 ## 第三部分
 - [RAII](./actual_combat/ac_RAII.cpp)
 - [Stack](./actual_combat/ac_stack.cpp)
+- [智能指针](./actual_combat/smart_ptr)
