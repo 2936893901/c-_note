@@ -21,7 +21,7 @@
 ### 第一天、 基础C++语法
 - :one: [打印练习](./10_crazy_practice/PrintTest.cpp "PrintTest.cpp")
 - :two: [求是否是闰年](./10_crazy_practice/leapyear.cpp "leapyear.cpp")
-- :three: [联合体](./10_crazy_practice/ht.cpp "lht.cpp")
+- :three: [联合体](./10_crazy_practice/union_t.cpp "union_t.cpp")
 
 ----
 <a id="two"></a>
