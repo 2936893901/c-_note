@@ -1,6 +1,7 @@
 #include <iostream>
 #include <mutex>
 
+// 声明枚举类
 enum class Shape_type
 {
 	circle,
