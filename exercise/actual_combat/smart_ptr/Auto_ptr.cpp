@@ -49,7 +49,7 @@ public:
 	// 输出当前指针是否为空，并返回值
 	bool isNull(bool a)
 	{
-		assert(a != 0 && a != 1);
+		assert(a != 0 || a != 1);
 		if (a)
 			std::cout << ((ptr == nullptr) ? "null\n" : "don't null\n");
 		return (ptr == nullptr);
@@ -58,7 +58,7 @@ public:
 	// 输出当前指针是否已有值，并返回值
 	bool isHave(bool b)
 	{
-		assert(b != 0 && b!= 1);
+		assert(b != 0 || b!= 1);
 		if (b)
 			std::cout << ((ptr != nullptr) ? "have\n" : "don't have\n");
 		return (ptr != nullptr);
