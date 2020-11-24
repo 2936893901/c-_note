@@ -1,6 +1,6 @@
 <a id="top"></a>
-# [:notebook_with_decorative_cover:<font color="000">c++ 笔记</font>](../README.md)
-持续更新中……:newspaper:
+# [:notebook_with_decorative_cover:c++ 笔记](../README.md)
+<font color="fff">持续更新中……:newspaper:</font>
 <b><details><summary>:bookmark_tabs:笔记目录(乱序)</summary></b>
             [decltype](decltype.md)&nbsp;
             [explicit](explicit.md)&nbsp;
