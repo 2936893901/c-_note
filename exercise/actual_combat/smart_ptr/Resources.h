@@ -2,20 +2,11 @@
 #define RESOURCES_H
 
 // 书类
-class Book
+class Test
 {
-	Book* b_p;
 public:
-	Book(Book* p = nullptr):b_p(p)
-	{
-		p = new Book;
-		std::cout << "Book()";
-	}
-	~Book()
-	{
-		delete b_p;
-		std::cout << "~Book()";
-	}
+	Test(){std::cout << "Test()";}
+	~Test(){std::cout << "~Test()";}
 };
 
 #endif
