@@ -1,5 +1,6 @@
 #include <iostream>
 #include <assert.h>
+#include "Resources.h"
 
 // auto_ptr的核心实现:
 template<typename T>
@@ -70,13 +71,6 @@ void swap(auto_p<T>& first, auto_p<T>& second) noexcept
 {
 	first.swap(second);
 }
-
-class Test
-{
-public:
-	Test(){puts("Test()");}
-	~Test(){puts("~Test()");}
-};
 
 int main(void)
 {
