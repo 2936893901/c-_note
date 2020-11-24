@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Resources.h"
+#include <assert.h>
 
 // auto_ptr的核心实现:
 template<typename T>
@@ -44,6 +44,24 @@ public:
 		auto_p(other.release()).swap(*this);
 		return *this;
 	}
+	
+	// 输出当前指针是否为空，并返回值
+	bool isNull(bool a)
+	{
+		assert(a != 0 && a != 1);
+		if (a)
+			std::cout << ((ptr == nullptr) ? "null\n" : "don't null\n");
+		return (ptr == nullptr);
+	}
+
+	// 输出当前指针是否已有值，并返回值
+	bool isHave(bool b)
+	{
+		assert(b != 0 && b!= 1);
+		if (b)
+			std::cout << ((ptr != nullptr) ? "have\n" : "don't have\n");
+		return (ptr != nullptr);
+	}
 
 };
 
@@ -53,18 +71,21 @@ void swap(auto_p<T>& first, auto_p<T>& second) noexcept
 	first.swap(second);
 }
 
+class Test
+{
+public:
+	Test(){puts("Test()");}
+	~Test(){puts("~Test()");}
+};
+
 int main(void)
 {
-	auto_p<Book> p1{new Book};
-	auto_p<Book> p2{p1};	// 复制p1初始化
+	auto_p<Test> p1{new Test};
+	auto_p<Test> p2{p1};	// 复制p1初始化
 
-	if (p1.get())
-		std::cout << "sss";
+	if (p1.isNull(0) && p2.isHave(0))
+		std::cout << "copy: p1 release of ownership, and p2 take possession of\n";
 
-	// if (p1.get() == nullptr && p2.get())
-	// {
-	// 	std::cout << "copy: p1 release of ownership, and p2 take possession of\n";
-	// }
 	p1 = p1;
 
 	return 0;
