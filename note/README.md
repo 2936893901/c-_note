@@ -1,6 +1,6 @@
 <a id="top"></a>
-# :notebook_with_decorative_cover:c++ 笔记
-<p align="left">持续更新中……:newspaper:</p>[<p align="right">:leftwards_arrow_with_hook:</p>](../README.md)
+# :notebook_with_decorative_cover:c++ 笔记[<p align="right">:leftwards_arrow_with_hook:</p>](../README.md)
+持续更新中……:newspaper:
 <b><details><summary>:bookmark_tabs:笔记目录(乱序)</summary></b>
             [decltype](decltype.md)&nbsp;
             [explicit](explicit.md)&nbsp;
