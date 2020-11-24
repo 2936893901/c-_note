@@ -1,4 +1,4 @@
-# cpptest c++练习
+# c++练习
 
 ## :bookmark_tabs:目录1（十日狂练系列）
  - ### [第一天](#one)
@@ -15,7 +15,9 @@
 ## :bookmark_tabs:目录2（重点狂练系列）
 ### [:golf:](#ee)
 > 练习网站:point_right:[点击这](https://light-city.club/sc/practical_exercises/key_exercises/key/ "重点狂练")
-
+## :bookmark_tabs:目录3(实战30)
+> 练习网站:point_right:[点击这](https://light-city.club/sc/learn_class/modern_C%2B%2B_30/jiketime_class/ "实战30讲")
+### [:golf:](#sz)
 ## 第一部分
  <a id="one"></a>
 ### 第一天、 基础C++语法
@@ -106,3 +108,9 @@
 - [异常处理](./key_crazy_practice/crazy_exp.cpp "crazy_exp.cpp")
 - [类模板之栈](./key_crazy_practice/crazy_template_stack.cpp)
 - [类模板之数组](./key_crazy_practice/crazy_array.cpp)
+
+----
+----
+<a id="sz"></a>
+## 第三部分
+- 
