@@ -49,7 +49,7 @@
 ### 第四天、 函数深入
 - :one: [const的使用](./10_crazy_practice/const_use.cpp "const_use.cpp")
 - :two: [友元函数](./10_crazy_practice/friend_distance.cpp "friend_distance.cpp")
-- :three: [拷贝构造方法](./10_crazy_practice/copy  "copy")
+- :three: [拷贝构造方法](./10_crazy_practice/copy "copy")
 - :four: [时钟练习题](./10_crazy_practice/operator_test.cpp "operator_test.cpp")
 
 ----
