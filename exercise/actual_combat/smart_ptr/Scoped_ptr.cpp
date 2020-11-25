@@ -11,7 +11,7 @@ public:
 	scoped_p(T* p = 0) : ptr(p) {}
 	~scoped_p(){delete ptr;}
 
-	void release(T* p)
+	void reset(T* p)
 	{
 		scoped_p(p).swap(*this);
 	}
@@ -35,6 +35,7 @@ void swap(scoped_p<T>& t1, scoped_p<T>& t2)
 
 int main(void)
 {
-	
+	scoped_p<Test> p1{new Test};
+// 	scoped_p<Test> p2{p1}	// error: declared private,no copy
 	return 0;
 }
