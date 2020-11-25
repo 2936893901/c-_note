@@ -141,5 +141,5 @@ int main
 ```
 
 <details><summary><b>展开查看答案</b></summary>
-	B、E和G编译失败
+		B、E和G编译失败
 </details>
