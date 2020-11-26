@@ -85,4 +85,4 @@ int main()
 }
 ```
 
-<font size="4" color=red>**只要我们想将l值视为r值，以调用移动语义而非复制语义，就可以使用`std :: move`。**</font>
+<font size="4" color=red>*只要我们想将l值视为r值，以调用移动语义而非复制语义，就可以使用`std :: move`。*</font>
