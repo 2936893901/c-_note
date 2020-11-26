@@ -33,7 +33,7 @@ int main()
 
 ```c++
 #include <iostream>
-#include <utility>
+#include <utility>	// for std::move function
 
 template<typename T>
 void swapnum(T& a, T& b)
@@ -53,3 +53,36 @@ int main()
     return 0;
 }
 ```
+
+
+
+- 当用`L`值填充容器的元素（例如`std :: vector`）时，我们还可以使用`std :: move`。
+
+> 示例
+```c++
+#include <iostream>
+#include <utility>
+#include <vector>
+#include <string>
+
+int main()
+{
+	std::vector<std::string> vet;
+	std::string str1{"copy"};
+	std::string str2{"move"};
+
+	// 复制值
+	std::cout << "\n---Copy value---\n";
+	vet.push_back(str1);
+	std::cout << "str1:" << str1 << ", vector:" << vet[0] << std::endl;
+
+
+	// 移动值
+	std::cout << "\n---Move value---\n";
+	vet.push_back(std::move(str2));
+	std::cout << "str2:" << str2 << ", vector:" << vet[1] << std::endl;
+	return 0;
+}
+```
+
+<font size="4" color=red>**只要我们想将l值视为r值，以调用移动语义而非复制语义，就可以使用`std :: move`。**</font>
