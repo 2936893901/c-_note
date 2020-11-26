@@ -34,7 +34,7 @@
             [设计模式](Design%20Patterns.md)&nbsp;
             [R值引用](R%E5%80%BC%E5%BC%95%E7%94%A8.md)&nbsp;
             [移动构造函数和移动分配](%E7%A7%BB%E5%8A%A8%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%92%8C%E7%A7%BB%E5%8A%A8%E5%88%86%E9%85%8D.md)&nbsp;
-            [std::move](https://github.com/verloren-droom/cpp/blob/main/note/std::move.md)&nbsp;
+            [std::move](std::move.md)&nbsp;
   </details>
 
 [:thumbsup:c++推荐写法](#tj)
