@@ -4,7 +4,7 @@
 
 - 不同版本 `Qt` 的安装目录结构大同小异，我们以 `Qt 5.9.0` 为例来说明，如下图所示。
 
-![](images/install_structure.png)
+![看不到图片？](images/install_structure.png)
 
 ## `Qt`类库目录
 
