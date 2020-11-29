@@ -1,3 +1,4 @@
 # QT笔记
-<b><details><summary>:bookmark_tabs:笔记目录(乱序)</summary></b>
-  </details>
+<b><details><summary>:bookmark_tabs:笔记目录</summary></b>
+  - [Qt安装目录的结构](Qt安装目录的结构.md)
+</details>
