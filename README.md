@@ -4,6 +4,6 @@
 - [:pencil:练习](./exercise/README.md)
 
 ## C++ GUI框架
-### QT
+### Qt
 - [:notebook_with_decorative_cover:笔记](./qt/note/README.md)
 - [:pencil:练习](./qt/exercise/README.md)
