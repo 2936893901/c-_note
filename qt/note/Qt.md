@@ -1,11 +1,11 @@
 # `Qt`创建模板解释
 - 在`Qt`的`Widgets`应用程序向导创建一个包含主源文件和一组文件中指定的用户界面（记事本窗口小部件）项目：
 notepad.pro-项目文件。
-> `yourName.pro`:项目文件
-> `main.cpp`:应用程序的主要源文件
-> `yourName.cpp`:你创建的项目文件的源文件
-> `yourName.h`:你创建的项目文件的头文件
-> `yourName.ui`:UI窗口
+> - `yourName.pro`:项目文件
+> - `main.cpp`:应用程序的主要源文件
+> - `yourName.cpp`:你创建的项目文件的源文件
+> - `yourName.h`:你创建的项目文件的头文件
+> - `yourName.ui`:UI窗口
 - QWidget、QMainWindow和QDialog之间的关系：
 **`QWidget` -> `QMainWindow`**
 **`QWidget` -> `QDialog`**
