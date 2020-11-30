@@ -27,3 +27,23 @@ connect(sender, STNAL(signal()), receiver, SLOT(slot()));
 
 **在使用信号与槽的类中，必须在类的定义中加入宏 Q_OBJECT。**
 
+- QT 信号槽connect三种写法
+```c++
+ QPushButton *btn = new QPushButton;
+
+    // 方式一：老式写法
+    connect(btn, SIGNAL(clicked()), this, SLOT(close()));
+
+    // 方式二：Qt5后新写法
+    connect(btn, &QPushButton::clicked, this, &MainWindow::close);
+
+    // 方式三：lambda表达式
+    connect(btn, &QPushButton::clicked, this, [&]() {
+        this->close();
+    });
+```
+- 方式一 老式写法，在编译的时候即使信号或槽不存在也不会报错，但是在执行的时候无效，对于C++这种静态语言来说，这是不友好的，不利于调试；
+
+- 方式二 Qt5后推荐的写法，如果编译的时候信号或槽不存在是无法编译通过的，相当于编译时检查，不容易出错，还有就是槽的写法可以直接写在public控制域下，不一定非要写在public slots:控制域下；
+
+- 方式三 采用了lambda表达式的写法，更加方便快捷。
