@@ -47,3 +47,5 @@ connect(sender, STNAL(signal()), receiver, SLOT(slot()));
 - 方式二 Qt5后推荐的写法，如果编译的时候信号或槽不存在是无法编译通过的，相当于编译时检查，不容易出错，还有就是槽的写法可以直接写在public控制域下，不一定非要写在public slots:控制域下；
 
 - 方式三 采用了lambda表达式的写法，更加方便快捷。
+`[]()mutable{};`
+  -`mutable`关键字:修改拷贝，并不是修改值
