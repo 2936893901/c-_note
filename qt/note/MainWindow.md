@@ -65,4 +65,10 @@ QStatusBar * stBar = statusBar();
 ```c++
 setStatusBar(stBar);
 ```
-  
+3. 放标签控件，头文件<QLabel>
+```c++
+QLabel *label = new QLabel("status:", this);
+stBar->addWidget(label);
+// 控件设置在右侧
+stBar->addPermanentWidget(label);
+```
