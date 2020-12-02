@@ -59,7 +59,7 @@ toolBar->addWidget(widget);
 ## `QStatusBar`
 1. 创建状态栏(有且只有一个)
 ```c++
-QStatusBar * statusBar = statusBar();
+QStatusBar * stBar = statusBar();
 ```
 2. 设置到窗口中
 ```c++
