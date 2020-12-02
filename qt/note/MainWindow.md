@@ -88,3 +88,13 @@ dock->setAllowedAreas(Qt::TopDockWidgetArea | Qt::BottomDockWidgetArea);
 QTextEdit *txtEdit = new QTextEdit(this);
 addCentralWidget(txtEdit);
 ```
+- 添加图标，头文件<QAction>
+```c++
+QAction *newAction = firstMenu->addAction("new", this);
+newAction->setIcon(QIcon("filePath"));
+```
+## 使用添加`Qt`资源文件
+- 在项目中添加`Qt`资源 ": + 前缀名 + 文件名"
+```c++
+newAction->setIcon(QIcon(":/前缀fileName"));
+```
