@@ -56,3 +56,13 @@ toolBar->addSeparator();
 ```c++
 toolBar->addWidget(widget);
 ```
+## `QStatusBar`
+1. 创建状态栏(有且只有一个)
+```c++
+QStatusBar * statusBar = statusBar();
+```
+2. 设置到窗口中
+```c++
+setStatusBar(statusBar);
+```
+  
