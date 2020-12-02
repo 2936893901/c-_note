@@ -95,6 +95,8 @@ newAction->setIcon(QIcon("filePath"));
 ```
 ## 使用添加`Qt`资源文件
 - 在项目中添加`Qt`资源 ": + 前缀名 + 文件名"
+  - 右键项目 -> Add New... -> `Qt` -> 'Qt Resource File'
+  - 会生成一个.qrc文件
 ```c++
 newAction->setIcon(QIcon(":/前缀fileName"));
 ```
