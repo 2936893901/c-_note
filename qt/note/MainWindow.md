@@ -72,3 +72,19 @@ stBar->addWidget(label);
 // 控件设置在右侧
 stBar->addPermanentWidget(label);
 ```
+## `QDockWidget`
+- 添加铆接部件(浮动窗口，可以有多个)
+```c++
+QDockWidget *dock = new QDockWidget("window", this);
+addDockWidget(Qt::TopDockWidgetArea, dock);
+```
+- 设置后期停靠区域
+```c++
+// 设置只允许上下停靠
+dock->setAllowedAreas(Qt::TopDockWidgetArea | Qt::BottomDockWidgetArea);
+```
+- 设置中心部件(有且只有一个)
+```c++
+QTextEdit *txtEdit = new QTextEdit(this);
+addCentralWidget(txtEdit);
+```
