@@ -1,6 +1,6 @@
 # `MainWindow`
 ## `QMenubar`
-1. 创建菜单栏
+1. 创建菜单栏（只能最多有一个）
 ```c++
 QMenuBar *bar = menuBar();
 ```
