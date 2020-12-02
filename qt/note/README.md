@@ -5,5 +5,6 @@
   - [Qt信号与槽机制](Qt信号与槽机制.md)
   - [自定义信号和槽](自定义信号和槽.md)
   - [`MainWindow`](MainWindow.md)
+  - [添加资源文件](添加资源文件.md)
   - [对话框](对话框.md)
 </details>
