@@ -28,3 +28,18 @@ QToolBar *toolBar = new QToolBar(this);
 // 工具栏停靠的位置(第一个参数可以是Qt::TopToolBarArea, Qt::LeftToolBarArea, Qt::RightToolBarArea, Qt::BottomToolBarArea)
 addToolBar(Qt::ToolBarArea area = Qt, toolBar);
 ```
+3. 设置停靠
+```c++
+// 设置左右停靠
+toolBar->setAllowedAreas(Qt::LeftToolBarArea | Qt::RightToolBarArea);
+```
+4. 设置浮动
+```c++
+// 设置不浮动
+toolBar->setFloatable(false);
+```
+5. 设置移动（总开关）
+```c++
+// 设置不能移动
+toolBar->setMovable(false);
+```
