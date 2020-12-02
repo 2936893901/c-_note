@@ -63,6 +63,6 @@ QStatusBar * statusBar = statusBar();
 ```
 2. 设置到窗口中
 ```c++
-setStatusBar(statusBar);
+setStatusBar(stBar);
 ```
   
