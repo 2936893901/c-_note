@@ -7,4 +7,5 @@
   - [`MainWindow`](MainWindow.md)
   - [添加资源文件](添加资源文件.md)
   - [对话框](对话框.md)
+  - [常用控件](常用控件.md)
 </details>
