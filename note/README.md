@@ -2,40 +2,40 @@
 # [:notebook_with_decorative_cover:<font color=#000>c++ 笔记</font>](../README.md)
 持续更新中……:newspaper:
 <b><details><summary>:bookmark_tabs:笔记目录(乱序)</summary></b>
-            [decltype](decltype.md)&nbsp;
-            [explicit](explicit.md)&nbsp;
-            [STL容器](STL%E5%AE%B9%E5%99%A8.md)&nbsp;
-            [extern](extern.md)&nbsp;
-            [位域](%E4%BD%8D%E5%9F%9F.md)&nbsp;
-            [信号处理](%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86.md)&nbsp;
-            [其他数据类型](%E5%85%B6%E4%BB%96%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)&nbsp;
-            [函数](%E5%87%BD%E6%95%B0.md)&nbsp;
-            [动态记忆](%E5%8A%A8%E6%80%81%E8%AE%B0%E5%BF%86.md)&nbsp;
-            [双冒号](%E5%8F%8C%E5%86%92%E5%8F%B7.md)&nbsp;
-            [名称可见性](%E5%90%8D%E7%A7%B0%E5%8F%AF%E8%A7%81%E6%80%A7.md)&nbsp;
-            [基本输入输出](%E5%9F%BA%E6%9C%AC%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.md)&nbsp;
-            [多线程](%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)&nbsp;
-            [字符序列](%E5%AD%97%E7%AC%A6%E5%BA%8F%E5%88%97.md)&nbsp;
-            [存储类](%E5%AD%98%E5%82%A8%E7%B1%BB.md)&nbsp;
-            [异常处理](%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md)&nbsp;
-            [引用与指针](%E5%BC%95%E7%94%A8%E5%92%8C%E6%8C%87%E9%92%88.md)&nbsp;
-            [指针](%E6%8C%87%E9%92%88.md)&nbsp;
-            [数据结构](%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)&nbsp;
-            [数组](%E6%95%B0%E7%BB%84.md)&nbsp;
-            [文件和流](%E6%96%87%E4%BB%B6%E5%92%8C%E6%B5%81.md)&nbsp;
-            [模板](%E6%A8%A1%E6%9D%BF.md)&nbsp;
-            [类](%E7%B1%BB.md)&nbsp;
-            [语句和流程控制](%E8%AF%AD%E5%8F%A5%E5%92%8C%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6.md)&nbsp;
-            [运算](%E8%BF%90%E7%AE%97.md)&nbsp;
-            [重载和模板](%E9%87%8D%E8%BD%BD%E5%92%8C%E6%A8%A1%E6%9D%BF.md)&nbsp;
-            [预处理器](%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.md)&nbsp;
-            [STL迭代器](STL%E8%BF%AD%E4%BB%A3%E5%99%A8.md)&nbsp;
-            [lambda](Lambda.md)&nbsp;
-            [设计模式](Design%20Patterns.md)&nbsp;
-            [R值引用](R%E5%80%BC%E5%BC%95%E7%94%A8.md)&nbsp;
-            [移动构造函数和移动分配](%E7%A7%BB%E5%8A%A8%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%92%8C%E7%A7%BB%E5%8A%A8%E5%88%86%E9%85%8D.md)&nbsp;
-            [move](move.md)&nbsp;
-            [STL](STL.md)&nbsp;
+            [decltype](decltype.md)  
+            [explicit](explicit.md)  
+            [STL容器](STL%E5%AE%B9%E5%99%A8.md)  
+            [extern](extern.md)  
+            [位域](%E4%BD%8D%E5%9F%9F.md)  
+            [信号处理](%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86.md)  
+            [其他数据类型](%E5%85%B6%E4%BB%96%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)  
+            [函数](%E5%87%BD%E6%95%B0.md)  
+            [动态记忆](%E5%8A%A8%E6%80%81%E8%AE%B0%E5%BF%86.md)  
+            [双冒号](%E5%8F%8C%E5%86%92%E5%8F%B7.md)  
+            [名称可见性](%E5%90%8D%E7%A7%B0%E5%8F%AF%E8%A7%81%E6%80%A7.md)  
+            [基本输入输出](%E5%9F%BA%E6%9C%AC%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.md)  
+            [多线程](%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)  
+            [字符序列](%E5%AD%97%E7%AC%A6%E5%BA%8F%E5%88%97.md)  
+            [存储类](%E5%AD%98%E5%82%A8%E7%B1%BB.md)  
+            [异常处理](%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md)  
+            [引用与指针](%E5%BC%95%E7%94%A8%E5%92%8C%E6%8C%87%E9%92%88.md)  
+            [指针](%E6%8C%87%E9%92%88.md)  
+            [数据结构](%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)  
+            [数组](%E6%95%B0%E7%BB%84.md)  
+            [文件和流](%E6%96%87%E4%BB%B6%E5%92%8C%E6%B5%81.md)  
+            [模板](%E6%A8%A1%E6%9D%BF.md)  
+            [类](%E7%B1%BB.md)  
+            [语句和流程控制](%E8%AF%AD%E5%8F%A5%E5%92%8C%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6.md)  
+            [运算](%E8%BF%90%E7%AE%97.md)  
+            [重载和模板](%E9%87%8D%E8%BD%BD%E5%92%8C%E6%A8%A1%E6%9D%BF.md)  
+            [预处理器](%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.md)  
+            [STL迭代器](STL%E8%BF%AD%E4%BB%A3%E5%99%A8.md)  
+            [lambda](Lambda.md)  
+            [设计模式](Design%20Patterns.md)  
+            [R值引用](R%E5%80%BC%E5%BC%95%E7%94%A8.md)  
+            [移动构造函数和移动分配](%E7%A7%BB%E5%8A%A8%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%92%8C%E7%A7%BB%E5%8A%A8%E5%88%86%E9%85%8D.md)  
+            [move](move.md)  
+            [STL](STL.md)  
   </details>
 
 [:thumbsup:c++推荐写法](#tj)
