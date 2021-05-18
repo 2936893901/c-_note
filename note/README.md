@@ -145,4 +145,38 @@ auto sum {1 + 2 + 3};
 ### 避免使用`std::auto_ptr`
 - `std::auto_ptr`已弃用，不应使用。（改为使用`std::unique_ptr`或`std::shared_ptr`）
 
-[<p align="right">​:top:​</p>](#top)
+### nullptr
+`nullptr`出现的目的是为了替代`NULL`。在某种意义上来说，传统`C++`会把`NULL`、0视为同一种东西，这取决于编译器如何定义 `NULL`，有些编译器会将`NULL`定义为`((void*)0)`，有些则会直接将其定义为0。  
+
+> g++ main.cpp
+```c++
+#include <iostream>
+
+void func(int)
+{
+    std::cout << "func(int) is called" << std::endl;
+}
+    
+void func(char *)
+{
+    std::cout << "func(char *) is called" << std::endl;
+}
+    
+int main()
+{
+    func(0);
+    // func(NULL);  // 该行不能通过编译
+    func(nullptr);
+    return 0;
+}
+```
+
+> 輸出
+```
+func(int) is called
+func(char *) is called
+```
+
+* **`NULL`不同于0与`nullptr`。所以，请养成直接使用`nullptr`的习惯。**
+
+[<p align="center">​:top:​</p>](#top)
