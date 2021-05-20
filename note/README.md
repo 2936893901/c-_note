@@ -192,5 +192,4 @@ char *str = "Warning"; // 将出现弃用警告
 ## 致謝
 * [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial)
 
-
 [<p align="center">​:top:​</p>](#top)
