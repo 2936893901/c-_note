@@ -58,7 +58,7 @@ std::cout << "Hello World";
 ```
 
 ### 构造方法
-- 使用`= default`几乎与添加带有空主体的默认构造函数相同。唯一的区别是`= default`即使没有初始化程序，我们也可以安全地初始化成员变量
+- 使用`= default;`几乎与添加带有空主体的默认构造函数相同。唯一的区别是`= default;`即使没有初始化程序，我们也可以安全地初始化成员变量
 
 ```c++
 class A
@@ -142,8 +142,6 @@ auto sum {1 + 2 + 3};
 - const用于运行期常量，constexpr用于编译期常量
 - constexpr 是 C++11 引入的，一方面是为了引入更多的编译时计算能力，另一方面也是解决 C++98 的 const 的双重语义问题。在 C 里面，const 很明确只有「只读」一个语义，不会混淆。C++ 在此基础上增加了「常量」语义，也由 const 关键字来承担，引出来一些奇怪的问题。C++11 把「常量」语义拆出来，交给新引入的 constexpr 关键字。
 - 在 C++11 以后，建议凡是「常量」语义的场景都使用 constexpr，只对「只读」语义使用 const。
-### 避免使用`std::auto_ptr`
-- `std::auto_ptr`已弃用，不应使用。（改为使用`std::unique_ptr`或`std::shared_ptr`）
 
 ### nullptr
 `nullptr`出现的目的是为了替代`NULL`。在某种意义上来说，传统`C++`会把`NULL`、0视为同一种东西，这取决于编译器如何定义 `NULL`，有些编译器会将`NULL`定义为`((void*)0)`，有些则会直接将其定义为0。  
@@ -178,5 +176,21 @@ func(char *) is called
 ```
 
 * **`NULL`不同于0与`nullptr`。所以，请养成直接使用`nullptr`的习惯。**
+
+## 被棄用
+* 不再允许字符串字面值常量赋值给一个`char *`。如果需要用字符串字面值常量赋值和初始化一个`char *`，应该使用`const char *`或者`auto`。
+```c++
+char *str = "Warning"; // 将出现弃用警告
+```
+* `bool`类型的`++`操作被弃用。
+* `std::auto_ptr`被弃用，应使用`std::unique_ptr`。
+* `C++98`异常说明、`unexpected_handler`、`set_unexpected()`等相关特性被弃用，应该使用 `noexcept`。
+* `C`语言风格的类型转换被弃用（即在变量前使用`convert_type`），应该使用`static_cast`、`reinterpret_cast`、`const_cast`来进行类型转换。
+* 特别地，在最新的`C++17`标准中弃用了一些可以使用的`C`标准库，例如`<ccomplex>`、`<cstdalign>`、`<cstdbool>`与`<ctgmath>`等
+* .....
+
+## 致謝
+* [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial)
+
 
 [<p align="center">​:top:​</p>](#top)
